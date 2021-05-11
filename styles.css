@@ -1,0 +1,96 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+header {
+    background-color: blueviolet;
+    min-height: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    margin: 0;
+    padding: 28px 0;
+    font-size: 30px;
+}
+
+.menu-container{
+    color: #fff;
+    background-color: #c56e05;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    padding: 10px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+h2 {
+    text-align: center;
+    color:  #df08eb;
+}
+
+article {
+    padding: 10px;
+    margin: 10px;
+    background: #0f6102;
+    flex: 1;
+}
+
+.hobbitimg {
+    text-align: center;
+}
+
+img { 
+    width: 300px;
+}
+
+article:nth-of-type(2) {
+    flex: 2;
+}
+
+a {
+    color: #6200ff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+blockquote {
+    font-family: cursive;
+    font-weight: 900;
+    font-size: large;
+}
+
+footer {
+    margin: 0;
+    padding: 20px;
+    height: 80px;
+    text-align: center;
+    color: #999999;
+}
+
+/*Image without alt attritube is highlighted*/
+img:not([alt]) {
+    outline: 2px dashed hotpink;
+}
