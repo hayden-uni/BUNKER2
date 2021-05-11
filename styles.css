@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: blueviolet;
+    background-color:white;
     min-height: 100px;
 }
 
@@ -23,7 +23,7 @@ h1 {
 
 .menu-container{
     color: #fff;
-    background-color: #c56e05;
+    background-color:#999999;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -53,9 +53,6 @@ article {
     flex: 1;
 }
 
-.hobbitimg {
-    text-align: center;
-}
 
 img { 
     width: 300px;
@@ -88,9 +85,4 @@ footer {
     height: 80px;
     text-align: center;
     color: #999999;
-}
-
-/*Image without alt attritube is highlighted*/
-img:not([alt]) {
-    outline: 2px dashed hotpink;
 }
