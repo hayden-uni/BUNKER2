@@ -7,6 +7,10 @@ body {
     padding:0;
 }
 
+center{
+    text-align: center;
+}
+
 header {
     background-color:white;
     min-height: 100px;
@@ -23,7 +27,7 @@ h1 {
 
 .menu-container{
     color: #fff;
-    background-color:#999999;
+    background-color: #999991;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -52,11 +56,15 @@ h3{
     color: black;
 }
 
+h4{
+    text-align: center;
+    color: black;
+}
 
 article {
     padding: 10px;
     margin: 10px;
-    flex:auto;
+    flex: 1;
 }
 
 
@@ -88,7 +96,7 @@ blockquote {
 footer {
     margin: 0;
     padding: 20px;
-    height: 80px;
+    height: 100px;
     text-align: center;
     background-color: black;
     color: white;
